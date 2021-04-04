@@ -54,20 +54,36 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="form-group">
                                 <label for="example-email"> العنوان  </label>
                                 <input type="text" id="address" name="address"  class="form-control"   >
                             </div>
                         </div>
 
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="example-email">رابط يوتيوب </label>
+                                <input type="text" id="youtube" name="youtube"  class="form-control"   >
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="example-email"> عن البرنامج  </label>
+                                <textarea type="text" id="about_program" name="about_program"  class="form-control"></textarea>
+                            </div>
+                        </div>
+
+
+
                     </div>
                 </div>
                 <div id="err"></div>
                 <input type="hidden" name="id" id="id">
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary"  data-dismiss="modal">close</button>
-                    <button type="submit" id="save" class="btn btn-success"><i class="ti-save"></i> save</button>
+                    <button type="button" class="btn btn-secondary"  data-dismiss="modal">اغلاق</button>
+                    <button type="submit" id="save" class="btn btn-success"><i class="ti-save"></i> حفظ</button>
                 </div>
             </form>
         </div>

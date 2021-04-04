@@ -97,8 +97,8 @@
 
                 <li class="sidebar-item">
                     <a class="sidebar-link  waves-effect waves-dark" href="{{route('Contacts.index')}}" aria-expanded="false">
-                        <i class="fa fa-phone"></i>
-                        <span class="hide-menu">تواصل معنا</span>
+                        <i class="fa fa-info"></i>
+                        <span class="hide-menu">معلومات الموقع</span>
                     </a>
                 </li>
 

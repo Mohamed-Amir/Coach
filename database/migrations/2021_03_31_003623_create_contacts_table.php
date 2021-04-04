@@ -22,6 +22,8 @@ class CreateContactsTable extends Migration
             $table->string('team_email')->nullable();
             $table->string('help_email')->nullable();
             $table->string('address')->nullable();
+            $table->string('about_program')->nullable();
+            $table->string('youtube')->nullable();
             $table->timestamps();
         });
     }

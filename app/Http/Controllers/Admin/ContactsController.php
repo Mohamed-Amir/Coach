@@ -71,6 +71,8 @@ class ContactsController extends Controller
         $Contacts->team_email=$request->team_email;
         $Contacts->help_email=$request->help_email;
         $Contacts->address=$request->address;
+        $Contacts->about_program=$request->about_program;
+        $Contacts->youtube=$request->youtube;
         $Contacts->save();
     }
 

@@ -1,7 +1,7 @@
 @extends('Admin.includes.layouts.master')
 
 @section('title')
-    تواصل معنا
+    معلومات الموقع
 
 @endsection
 
@@ -30,7 +30,7 @@
                                 <li class="breadcrumb-item">
                                     <a href="{{route('admin.dashboard')}}">الرئيسيه</a>
                                 </li>
-                                <li class="breadcrumb-item active" aria-current="page"> تواصل معنا </li>
+                                <li class="breadcrumb-item active" aria-current="page"> معلومات الموقع </li>
                             </ol>
                         </nav>
                     </div>
@@ -53,7 +53,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="d-flex no-block align-items-center m-b-30">
-                                <h4 class="card-title"> تواصل معنا </h4>
+                                <h4 class="card-title">معلومات الموقع </h4>
                             </div>
 
                             <div class="table-responsive" style="overflow: hidden;">
@@ -67,6 +67,7 @@
                                         <th> ايميل الفريق</th>
                                         <th>ايميل المساعده</th>
                                         <th>العنوان </th>
+                                        <th>رابط يوتيوب </th>
                                         <th>اختيارات</th>
 
                                     </tr>

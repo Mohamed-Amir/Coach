@@ -33,6 +33,7 @@
             {data: 'team_email', name: 'team_email'},
             {data: 'help_email', name: 'help_email'},
             {data: 'address', name: 'address'},
+            {data: 'youtube', name: 'youtube'},
             {data: 'action', name: 'action', orderable: false, searchable: false},
         ]
     });
@@ -75,6 +76,8 @@
                 $('#team_email').val(data.team_email);
                 $('#help_email').val(data.help_email);
                 $('#address').val(data.address);
+                $('#about_program').val(data.about_program);
+                $('#youtube').val(data.youtube);
                 $('#id').val(data.id);
             }
         });
